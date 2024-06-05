@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-banner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.hero-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile {
+    width: 800px;
+    height: 480px;
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+}
+
+.header-profile {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    padding: 15px;
+}
+
+.header-profile .icon-left,
+.header-profile .icon-right {
+    font-size: 18px;
+    color: #23395E;
+    margin: 0 20px;
+}
+
+.fa-user-shadow{
+    color: #23395e3a;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: -5px;
+}
+
+ .fa-comment-shadow{
+    color: #23395e3a;
+    font-size: 18px;
+    margin-right: 5px;
+    rotate: -100deg;
+    margin-left: -10px;
+}
+
+.header-profile .profile-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 101, 103, 0.2) 0px 8px 24px;
+
+}
+
+.profile-circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.body-profile{
+    position: absolute;
+    top: 100px;
+    color: rgb(99, 99, 99);
+    text-align: center;
+
+}
+
+.info-detail{
+    margin: 40px 0px;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-nav .nav-item{
+    list-style: none;
+    
+}
+
+.see-more{
+    margin-top: 40px;
+    padding: 12px 25px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #cdffd8, #94b9ff);
+}

@@ -1,0 +1,153 @@
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.btn-resp {
+  outline: 1px solid #015778;
+}
+
+.btn-close-black:focus,
+.btn-resp {
+  box-shadow: none!important;
+}
+
+input{
+  border: none!important;
+  background-color: #f5f5f5!important;
+  padding-left: 40px!important;
+
+}
+
+input:focus{
+  box-shadow:none!important;
+
+}
+
+.input-icon {
+  position: absolute;
+  left: 15px; 
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+  pointer-events: none;
+}
+
+.input-color{
+  color: #5e5e5e!important;
+}
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  color: rgb(6, 6, 60);
+  background: #015778;
+  height: 3px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+.letter-cus {
+  color: #015778 !important;
+}
+
+.cus-btn {
+  background-color: #015778 !important;
+  border: 0 !important;
+  color: #fff !important;
+}
+
+.cus-btn:hover{
+  background-color: #044761!important;
+}
+.cus-btn1 {
+  background-color: #f1f1f1 !important;
+  border: 0 !important;
+}
+
+.cus-card {
+  height: 180px;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #5e5e5e;
+  box-shadow: rgba(138, 138, 138, 0.2) 0px 1px 8px 0px;
+  transition: 0.3s;
+
+}
+
+.cus-card:hover {
+  background-color: #c2e1ed33;
+}
+
+.col-lg-8 {
+  height: 400px;
+  color: #5e5e5e;
+}
+
+.product-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #015778;
+}
+
+.product-img img {
+  width: 48px;
+  height: auto;
+
+}
+
+.fa-heart:hover,
+.fa-share-nodes:hover {
+  color: red;
+}
+
+.product-link:hover {
+  color: #015678;
+}
+
+.col-lg-8 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.profile {
+  width: 80px;
+  height: 80px;
+  /* background-color: #015778; */
+  bottom: -38px;
+  left: 50px;
+  border-radius: 6px;
+
+}
+
+.profile img {
+ width: 100%;
+ height: 100%;
+ border-radius: 6px;
+}
+
